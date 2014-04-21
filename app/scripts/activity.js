@@ -36,3 +36,5 @@ function Activity(budget, indoor, outdoor) {
 
 	}
 
+	test
+
