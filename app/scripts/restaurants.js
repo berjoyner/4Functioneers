@@ -1,11 +1,19 @@
-function restaurant (type, budget);
+function Restaurant (type, budget){
 		this.type = type;
 		this.budget = budget;
 
-		this.foodBudget = function (target) {
+		this.foodBudget = function () {
 			if (this.type === "American"){
 				if (this.budget === 25){
-					console.log("You are eligible for Shelter or Seasame")}
+					var chance = Math.floor(Math.random() * 10 )
+					if chance <= 5
+					console.log("Shelter")
+						}else{
+							console.log ("Seasame")
+}
+}
+
+
 				if (this.budget === 50){
 					console.log ("You are eligible for EVO or Coleman Public House")}
 				if (this.budget === 100){
@@ -27,6 +35,7 @@ function restaurant (type, budget);
 				if (this.budget === 100){
 					console.log ("You have the funds to splurge at Hank's or Red Drum")}
 };
+}
 }					
 				
 
