@@ -21,6 +21,29 @@
         <script type="text/javascript" src="//use.typekit.net/ukk4fcl.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
+        <script type="template/html" id="teamList">
+
+
+
+            <% _.each(teamBios, function(element, index, list) { %>
+
+                            <div class="col-md-3 teammem">
+
+    
+
+                    <h3><%= element.functioneer.name %></h3>
+                    <p><%= element.functioneer.bio %></p>
+                    <a href="http://www.twitter.com<%= element.functioneer.twitter %>">Follow Me on twitter</a>
+
+                                </div><!--end bio-->       
+
+            <% }); %>
+
+
+
+                    
+        </script>
+
     </head>
     <body>
         <!--[if lt IE 10]>
@@ -50,8 +73,12 @@
 
                 </div><!--end about intro-->
                 
+                                    <h2>Our Team</h2>
 
-                <div class="teambios">
+
+                <div class="teammembers">
+
+
                     
 
 
@@ -80,6 +107,7 @@
         <!-- build:js scripts/vendor.js -->
         <!-- bower:js -->
         <script src="../bower_components/jquery/dist/jquery.js"></script>
+        <script src="../bower_components/underscore/underscore.js"></script>
         <!-- endbower -->
         <!-- endbuild -->
 
@@ -106,14 +134,14 @@
         <script src="../bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/scrollspy.js"></script>
         <script src="../bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/collapse.js"></script>
         <script src="../bower_components/bootstrap-sass-official/vendor/assets/javascripts/bootstrap/tab.js"></script>
+          
         <!-- endbuild -->
 
         <!-- build:js({app,.tmp}) scripts/main.js -->
-        <script src="scripts/main.js"></script>
-        <script src="scripts/teambios.js"></script>
-        <script src="scripts/restaurants.js"></script>
-        <script src="scripts/activity.js"></script>
-        <script src="scripts/transportation.js"></script>
+        <script src="scripts/data.js"></script>
+            <script src="scripts/teambios.js"></script>
+
+    
         <!-- endbuild -->
 </body>
 </html>
