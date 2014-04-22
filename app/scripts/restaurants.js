@@ -1,29 +1,3 @@
-
-// user input
-// var foodChoice = $(".foodselect").val();
-// var restaurantName = foodChoice;
-// var foodBudget = $(".foodbudget").val();
-// var budgetAmount = budget;
-// 	if (budget === "$25"){
-// 		var userBudget = new Budget (25);
-
-// 	}
-// 	if (budget === "$50"){
-// 		var userBudget = new Budget (50);
-// 	}
-// 	if (budget === "$100"){
-// 		var userBudget = new Budget (100);
-// 	}
-// var restaurantName = new Restaurant (foodChoice, userBudget );
-// var budgetAmount = new Budget (userBudget);
-
-
-
-//constructors
-// function Budget (amount){
-// 	this.amount = amount;
-// };
-
 function Restaurant (type, budget){
 		this.type = type;
 		this.budget = budget;

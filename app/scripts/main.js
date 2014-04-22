@@ -1,4 +1,5 @@
 //FOR MIKE!
+//Test
 
 function Restaurant (type, budget){
 		this.type = type;
@@ -120,8 +121,8 @@ var Fleets = new Restaurant ("Seafood", 50);
 var Hymans = new Restaurant ("Seafood", 50);
 var Hanks = new Restaurant ("Seafood", 100);
 var RedDrum = new Restaurant ("Seafood", 100);
-					
-			
+
+
 
 
 function Activity(budget, indoor, outdoor) {
@@ -138,7 +139,7 @@ function Activity(budget, indoor, outdoor) {
 		} else {
 			console.log("You are eligible for a MiniGolf Activity")
 		}
-		
+
 		} else if(this.budget ====  50) {
 
 			if(this.indoor ==== true) {
