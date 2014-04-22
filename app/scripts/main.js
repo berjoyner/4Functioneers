@@ -1,3 +1,5 @@
+//FOR MIKE!
+
 function Restaurant (type, budget){
 		this.type = type;
 		this.budget = budget;
