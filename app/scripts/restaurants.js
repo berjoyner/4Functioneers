@@ -1,12 +1,37 @@
+
+//user input
+var foodChoice = $(".foodselect").val();
+var restaurantName = foodChoice;
+var foodBudget = $(".foodbudget").val();
+var budgetAmount = budget;
+	if (budget === "$25"){
+		var userBudget = new Budget (25);
+
+	}
+	if (budget === "$50"){
+		var userBudget = new Budget (50);
+	}
+	if (budget === "$100"){
+		var userBudget = new Budget (100);
+	}
+var restaurantName = new Restaurant (foodChoice, userBudget );
+
+
+
+//constructors
+function Budget (amount){
+	this.amount = amount;
+};
+
 function Restaurant (type, budget){
 		this.type = type;
 		this.budget = budget;
 
-		this.foodBudget = function () {
+		this.restaurantSelect = function () {
 			if (this.type === "American"){
 				if (this.budget === 25){
 					var chance = Math.floor(Math.random() * 10 )
-					if chance <= 5
+					if (chance <= 5){
 					console.log("Shelter")
 						}else{
 							console.log ("Seasame")
@@ -36,6 +61,8 @@ function Restaurant (type, budget){
 					console.log ("You have the funds to splurge at Hank's or Red Drum")}
 };
 }
+
+var restaurantName = new Restaurant (type, budget);
 }					
 				
 
