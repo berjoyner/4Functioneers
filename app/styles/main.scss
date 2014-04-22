@@ -159,13 +159,46 @@ button.btn-success{
 }
 
 
+/*About Page Styling*/
+
+.about{
+    width: 100%;
+    min-height: 500px;
+    background-color: white;
+}
+
+.aboutintro{
+    width: 100%;
+    min-height: 200px;
+}
+
+.aboutintro h1{
+    text-align: center;
+    padding: 30px 0 0 0;
+       font-family: "museo-sans-rounded", 'Helvetica';
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+
+}
+
+.aboutintro p{
+     padding: 30px 0 0 0;
+     font-family: "museo-sans-rounded", 'Helvetica';
+     width: 50%;
+     text-align: center;
+     margin: 0 auto;
+
+}
+
+
 .footer{
     position: relative;
     bottom: 0;
     margin: 50px 0 0 0;
     max-width: 950px;
     min-width: 320px;
-    height: 130px;
+    height: 30px;
     background-color: #1eb5e9;
     margin: 0 auto;
 
