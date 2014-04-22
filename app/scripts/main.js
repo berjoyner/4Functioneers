@@ -1,7 +1,25 @@
-//FOR MIKE!
-//Test
+	function Transportation(type, budget) {
+	this.name = name;
+	this.budget = budget;
+	this.type = type;
 
-function Restaurant (type, budget){
+var Limo = new Transportation("Limo", 100);
+var Taxi = new Transportation("Taxi", 50);
+var Car = new Transportation("Car", 25);
+
+if (this.budget === 25) {
+ $( ".transportation" ).append( "<h1>You will be taking a car!</h1>" )
+ 	console.log("Car!!!!!");
+}
+if (this.budget === 50) {
+ $( ".transportation" ).append( "<h1>You will be taking a Taxi!</h1>" )
+}
+if (this.budget === 100) {
+ $( ".transportation" ).append( "<h1>You will be taking a Limo!</h1>" )
+}
+};
+
+function Restaurant(type, budget) {
 		this.type = type;
 		this.budget = budget;
 
@@ -101,8 +119,7 @@ function Restaurant (type, budget){
 							console.log("Drum");
 }
 }
-}
-};
+}}};
 var Shelter = new Restaurant ("American", 25);
 var Seasame = new Restaurant ("American", 25);
 var ColemanPublicHouse = new Restaurant ("American", 50);
@@ -140,9 +157,9 @@ function Activity(budget, indoor, outdoor) {
 			console.log("You are eligible for a MiniGolf Activity")
 		}
 
-		} else if(this.budget ====  50) {
+		} else if(this.budget ===  50) {
 
-			if(this.indoor ==== true) {
+			if(this.indoor === true) {
 				console.log("You are eligible for a Painting Activity")
 
 		} else {
@@ -163,22 +180,6 @@ function Activity(budget, indoor, outdoor) {
 
 	}
 
-	function Transportation(type, budget) {
-	this.name = name;
-	this.budget = budget;
-	this.type = type;
 
-var Limo = new Transportation("Limo", 100);
-var Taxi = new Transportation("Taxi", 50);
-var Car = new Transportation("Car", 25);
 
-if (this.budget === 25) {
- $( ".transportation" ).append( "<h1>You will be taking a car!</h1>" )
- 	console.log("Car!!!!!");
-}
-if (this.budget === 50) {
- $( ".transportation" ).append( "<h1>You will be taking a Taxi!</h1>" )
-}
-if (this.budget === 100) {
- $( ".transportation" ).append( "<h1>You will be taking a Limo!</h1>" )
-}}
+
