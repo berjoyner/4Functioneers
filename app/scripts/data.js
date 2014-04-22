@@ -4,7 +4,7 @@ var teamBios = [
 	"functioneer" : {
 		"name": "Amber",
 		"bio": "I was born an avatar, then something happened, now I'm a nerd girl.",
-		"twitter": "hi"
+		"twitter": "/amber_joyner"
 
 		}
 	},
@@ -23,7 +23,7 @@ var teamBios = [
 	"functioneer": {
 		"name": "Devon",
 		"bio": "I was born a chocolate chip, and grew up in Knoxville. I'm addicted to cookies.",
-		"twitter": "hi"
+		"twitter": "/craftydevon"
 		
 		}
 
