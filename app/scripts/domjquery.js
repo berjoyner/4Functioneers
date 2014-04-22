@@ -1,4 +1,4 @@
-$(document).ready({
+$(document).ready(
 	$(".btn").click(function(e) {
 	e.preventDefault();
 	console.log("im working");
@@ -13,4 +13,4 @@ $(document).ready({
 // var varLife=(varCoffee.life + varSleep.life);
 
 })
-});
+);

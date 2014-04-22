@@ -179,6 +179,7 @@ function Activity(budget, indoor, outdoor) {
 
 
 	}
+}
 
 
 
