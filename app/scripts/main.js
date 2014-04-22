@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 console.log('\'Allo \'Allo!');
+=======
+//FOR MIKE!
+>>>>>>> e45099098bcadc30600ceb6f45f45b15bbce8cdb
 
 function Restaurant (type, budget){
 		this.type = type;
