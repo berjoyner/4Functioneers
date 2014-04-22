@@ -1,21 +1,19 @@
-	function Transportation(type, budget) {
-	this.name = name;
+	function Transportation(budget) {
 	this.budget = budget;
-	this.type = type;
 
-var Limo = new Transportation("Limo", 100);
-var Taxi = new Transportation("Taxi", 50);
-var Car = new Transportation("Car", 25);
+// var Limo = new Transportation(100);
+// var Taxi = new Transportation(50);
+// var Car = new Transportation(25);
 
 if (this.budget === 25) {
- $( ".transportation" ).append( "<h1>You will be taking a car!</h1>" )
+ $( ".date" ).append( "<h1>You will be taking a car!</h1>" )
  	console.log("Car!!!!!");
 }
 if (this.budget === 50) {
- $( ".transportation" ).append( "<h1>You will be taking a Taxi!</h1>" )
+ $( ".date" ).append( "<h1>You will be taking a Taxi!</h1>" )
 }
 if (this.budget === 100) {
- $( ".transportation" ).append( "<h1>You will be taking a Limo!</h1>" )
+ $( ".date" ).append( "<h1>You will be taking a Limo!</h1>" )
 }
 };
 
@@ -28,30 +26,30 @@ function Restaurant(type, budget) {
 				if (this.budget === 25){
 					var chance = Math.floor(Math.random() * 10 )
 					if (chance <= 5){
-					$(".restaurant").append("<h1>You will eat at Shelter tonight!</h1>");	
+					$(".date").append("<h1>You will eat at Shelter tonight!</h1>");	
 					console.log("Shelter");
 						}else{
-							$(".restaurant").append("<h1>You will eat at Seasame tonight!</h1>");
+							$(".date").append("<h1>You will eat at Seasame tonight!</h1>");
 							console.log ("Seasame");
 }
 }
 					if (this.budget === 50){
 					var chance = Math.floor(Math.random() * 10 )
 					if (chance <= 5){
-					$(".restaurant").append("<h1>You will eat at Coleman Public House tonight!</h1>");	
+					$(".date").append("<h1>You will eat at Coleman Public House tonight!</h1>");	
 					console.log("CPH")
 						}else{
-							$(".restaurant").append("<h1>You will eat at EVO tonight!</h1>")
+							$(".date").append("<h1>You will eat at EVO tonight!</h1>")
 							console.log ("EVO")
 }
 }
 					if (this.budget === 100){
 					var chance = Math.floor(Math.random() * 10 )
 					if (chance <= 5){
-					$(".restaurant").append("<h1>You will eat at Halls Chophouse tonight!>/h1>")
+					$(".date").append("<h1>You will eat at Halls Chophouse tonight!>/h1>")
 					console.log === ("Halls")
 						}else{
-							$(".restaurant").append("<h1>You will eat at Oak Steak House tonight!</h1>")
+							$(".date").append("<h1>You will eat at Oak Steak House tonight!</h1>")
 							console.log("Oak")
 }
 }
@@ -60,30 +58,30 @@ function Restaurant(type, budget) {
 				if (this.budget === 25){
 					var chance = Math.floor(Math.random() * 10 )
 					if (chance <= 5){
-					$(".restaurant").append("<h1>You will eat at Tasty Thai tonight!</h1>");	
+					$(".date").append("<h1>You will eat at Tasty Thai tonight!</h1>");	
 					console.log("Tasty");
 						}else{
-							$(".restaurant").append("<h1>You will eat at Co tonight!</h1>");
+							$(".date").append("<h1>You will eat at Co tonight!</h1>");
 							console.log ("Co");
 }
 }
 				if (this.budget === 50){
 					var chance = Math.floor(Math.random() * 10 )
 					if (chance <= 5){
-					$(".restaurant").append("<h1>You will eat at Tsunami tonight!</h1>");	
+					$(".date").append("<h1>You will eat at Tsunami tonight!</h1>");	
 					console.log("Tsunami");
 						}else{
-							$(".restaurant").append("<h1>You will eat at Wasabi tonight!</h1>");
+							$(".date").append("<h1>You will eat at Wasabi tonight!</h1>");
 							console.log ("Wasabi");
 }
 }
 				if (this.budget === 100){
 					var chance = Math.floor(Math.random() * 10 )
 					if (chance <= 5){
-					$(".restaurant").append("<h1>You will eat at Basil tonight!</h1>");	
+					$(".date").append("<h1>You will eat at Basil tonight!</h1>");	
 					console.log("Basil");
 						}else{
-							$(".restaurant").append("<h1>You will eat at PF Chang's tonight!</h1>");
+							$(".date").append("<h1>You will eat at PF Chang's tonight!</h1>");
 							console.log ("PFC");
 }
 }
@@ -92,30 +90,30 @@ function Restaurant(type, budget) {
 				if (this.budget === 25){
 					var chance = Math.floor(Math.random() * 10 )
 					if (chance <= 5){
-					$(".restaurant").append("<h1>You will eat at Red's tonight!</h1>");	
+					$(".date").append("<h1>You will eat at Red's tonight!</h1>");	
 					console.log("Reds");
 						}else{
-							$(".restaurant").append("<h1>You will eat at Noisy Oyster tonight!</h1>");
+							$(".date").append("<h1>You will eat at Noisy Oyster tonight!</h1>");
 							console.log ("Oyster");
 }
 }
 				if (this.budget === 50){
 					var chance = Math.floor(Math.random() * 10 )
 					if (chance <= 5){
-					$(".restaurant").append("<h1>You will eat at Fleet's Landing tonight!</h1>");	
+					$(".date").append("<h1>You will eat at Fleet's Landing tonight!</h1>");	
 					console.log("Fleets");
 						}else{
-							$(".restaurant").append("<h1>You will eat at Hyman's tonight!</h1>");
+							$(".date").append("<h1>You will eat at Hyman's tonight!</h1>");
 							console.log ("Hyman");
 }
 }
 				if (this.budget === 100){
 					var chance = Math.floor(Math.random() * 10 )
 					if (chance <= 5){
-					$(".restaurant").append("<h1>You will eat at Hank's tonight!</h1>");	
+					$(".date").append("<h1>You will eat at Hank's tonight!</h1>");	
 					console.log("Hank");
 						}else{
-							$(".restaurant").append("<h1>You will eat at Red Drum tonight!</h1>");
+							$(".date").append("<h1>You will eat at Red Drum tonight!</h1>");
 							console.log("Drum");
 }
 }
@@ -142,44 +140,52 @@ var RedDrum = new Restaurant ("Seafood", 100);
 
 
 
-function Activity(budget, indoor, outdoor) {
+function Activity(inOrOut, budget) {
+	this.inOrOut = inOrOut;
 	this.budget = budget;
-	this.indoor = budget;
-	this.outdoor = budget; 
 
-	this.budAct = function(target) {
+	this.generateActivity = function() {
+	 
 		if (this.budget === 25) {
 
-			if(this.indoor === true) {
+			if(this.inOrOut === "indoors") {
+			$( ".date" ).append( "<h1>Your going to the movies!</h1>" )
 			console.log("You are eligible for a Movie Activity")
 
-		} else {
+		} else{
+			$( ".date" ).append( "<h1>You will going to MiniGolf!</h1>" )
 			console.log("You are eligible for a MiniGolf Activity")
 		}
 
-		} else if(this.budget ===  50) {
+		}  if(this.budget ===  50) {
 
-			if(this.indoor === true) {
+			if(this.inOrOut === "indoors") {
+				$( ".date" ).append( "<h1>You will be going on a Painting Activity</h1>" )
 				console.log("You are eligible for a Painting Activity")
 
 		} else {
+				$( ".date" ).append( "<h1>You're going Kayaking!!!</h1>" )
 				console.log("You are eligible for a Kayak Activity")
 
 		}
 
-		} else if(this.budget === 100) {
+		}  if(this.budget ===  100) {
 
-			if(this.indoor === true) {
+			if(this.inOrOut === "indoors") {
+				$( ".date" ).append( "<h1>You will be going to a CONCERTTTTT! </h1>" )
 				console.log("You are eligible for a Concert Activity")
-		}
 
 		} else {
-			console.log("You are eligible for a Fishing Charter Activity")
+				$( ".date" ).append( "<h1>You're going on a Boat Charter!!!</h1>" )
+				console.log("You are eligible for a Boat Charter Activity")
+
 		}
+		
 
 
 	}
-}
+}}
+
 
 
 
