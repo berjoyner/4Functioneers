@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-console.log('\'Allo \'Allo!');
-=======
 //FOR MIKE!
->>>>>>> e45099098bcadc30600ceb6f45f45b15bbce8cdb
+//Test
 
 function Restaurant (type, budget){
 		this.type = type;
@@ -124,3 +121,64 @@ var Fleets = new Restaurant ("Seafood", 50);
 var Hymans = new Restaurant ("Seafood", 50);
 var Hanks = new Restaurant ("Seafood", 100);
 var RedDrum = new Restaurant ("Seafood", 100);
+
+
+
+
+function Activity(budget, indoor, outdoor) {
+	this.budget = budget;
+	this.indoor = budget;
+	this.outdoor = budget; 
+
+	this.budAct = function(target) {
+		if (this.budget === 25) {
+
+			if(this.indoor === true) {
+			console.log("You are eligible for a Movie Activity")
+
+		} else {
+			console.log("You are eligible for a MiniGolf Activity")
+		}
+
+		} else if(this.budget ====  50) {
+
+			if(this.indoor ==== true) {
+				console.log("You are eligible for a Painting Activity")
+
+		} else {
+				console.log("You are eligible for a Kayak Activity")
+
+		}
+
+		} else if(this.budget === 100) {
+
+			if(this.indoor === true) {
+				console.log("You are eligible for a Concert Activity")
+		}
+
+		} else {
+			console.log("You are eligible for a Fishing Charter Activity")
+		}
+
+
+	}
+
+	function Transportation(type, budget) {
+	this.name = name;
+	this.budget = budget;
+	this.type = type;
+
+var Limo = new Transportation("Limo", 100);
+var Taxi = new Transportation("Taxi", 50);
+var Car = new Transportation("Car", 25);
+
+if (this.budget === 25) {
+ $( ".transportation" ).append( "<h1>You will be taking a car!</h1>" )
+ 	console.log("Car!!!!!");
+}
+if (this.budget === 50) {
+ $( ".transportation" ).append( "<h1>You will be taking a Taxi!</h1>" )
+}
+if (this.budget === 100) {
+ $( ".transportation" ).append( "<h1>You will be taking a Limo!</h1>" )
+}}
