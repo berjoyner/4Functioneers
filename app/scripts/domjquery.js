@@ -2,10 +2,17 @@ $(document).ready(
 	$(".btn").click(function(e) {
 	e.preventDefault();
 	console.log("im working");
-	var transportation = Text($(".transportation").val());
-	var yourTransport = new Transportation(budget);
-// 	var cups = Number($(".coffeeSelect").val());
-// 	var varCoffee= new Coffee(cups);
+	var valTrans = Number($(".transportation").val());
+	var yourTransport = new Transportation(valTrans);
+	var valAct = Number($(".activitySelect").val());
+	var valActBudg= Number($(".actBudget").val());
+	var yourActivity = new Activity (valAct, valActBudg);
+	var yourDate = yourActivity.generateActivity();
+
+	// var yourDate = youActivity.generateDecision();
+
+	// $("something").append(yourDate)
+
 // 	var difficulty = $(".classroomSelect").val();
 // 	var varClassroom = new Classroom() 
 // 	varClassroom.difficulty(difficulty, varSleep);
