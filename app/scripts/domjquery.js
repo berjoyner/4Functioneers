@@ -2,17 +2,24 @@ $(document).ready(
 	$(".btn").click(function(e) {
 	e.preventDefault();
 	console.log("im working");
+
 	var valTrans = Number($(".transportation").val());
 	var yourTransport = new Transportation(valTrans);
-	var valFoodType = Number($(".foodselect").val());
+	var Tranny = yourTransport.generateTrans();
+	
 	var valFoodBudget = Number($(".foodbudget").val());
-	var yourFood = new Restaurant (valFoodType, valFoodBudget);
-	var yourRestaurant = yourFood.restaurantSelect();
-	var valAct = Number($(".activitySelect").val());
+	var yourFood = new Restaurant (valFoodBudget);
+	var yourRestaurant = yourFood.generateRest();
+	
 	var valActBudg= Number($(".actBudget").val());
-	var yourActivity = new Activity (valAct, valActBudg);
-	var yourDate = yourActivity.generateActivity();
+	var yourActivity = new Activity (valActBudg);
+	var yourDate= yourActivity.generateAct(); 
+	// var yourDate = yourActivity.generate50Act(); 
+	// var yourDate = yourActivity.generate100Act(); 
+	
 
+})
+);
 
 	// var yourDate = yourActivity.generateActivity(valAct, ValActBudg);
 
@@ -24,5 +31,3 @@ $(document).ready(
 // 	console.log(varSleep.life);
 // var varLife=(varCoffee.life + varSleep.life);
 
-})
-);
