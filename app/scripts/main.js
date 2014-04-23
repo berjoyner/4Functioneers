@@ -143,12 +143,11 @@ var RedDrum = new Restaurant ("Seafood", 100);
 function Activity(inOrOut, budget) {
 	this.inOrOut = inOrOut;
 	this.budget = budget;
-
 	this.generateActivity = function() {
-	 
-		if (this.budget === 25) {
+		
+		if (this.budget == 25) {
 
-			if(this.inOrOut === "indoors") {
+			if(this.inOrOut == "1") {
 			$( ".date" ).append( "<h1>Your going to the movies!</h1>" )
 			console.log("You are eligible for a Movie Activity")
 
@@ -157,9 +156,10 @@ function Activity(inOrOut, budget) {
 			console.log("You are eligible for a MiniGolf Activity")
 		}
 
-		}  if(this.budget ===  50) {
+		}  
+		if(this.budget ==  50) {
 
-			if(this.inOrOut === "indoors") {
+			if(this.inOrOut == "1") {
 				$( ".date" ).append( "<h1>You will be going on a Painting Activity</h1>" )
 				console.log("You are eligible for a Painting Activity")
 
@@ -169,9 +169,9 @@ function Activity(inOrOut, budget) {
 
 		}
 
-		}  if(this.budget ===  100) {
+		}  if(this.budget ==  100) {
 
-			if(this.inOrOut === "indoors") {
+			if(this.inOrOut == "1") {
 				$( ".date" ).append( "<h1>You will be going to a CONCERTTTTT! </h1>" )
 				console.log("You are eligible for a Concert Activity")
 
@@ -184,7 +184,8 @@ function Activity(inOrOut, budget) {
 
 
 	}
-}}
+}
+}
 
 
 
