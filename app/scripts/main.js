@@ -46,7 +46,7 @@ function Restaurant(type, budget) {
 					if (this.budget == 100){
 					var chance = Math.floor(Math.random() * 10 )
 					if (chance <= 5){
-					$(".date").append("<h1>Your budget allows you to eat at Halls Chophouse tonight!>/h1>")
+					$(".date").append("<h1>Your budget allows you to eat at Halls Chophouse tonight!</h1>")
 					console.log ("Halls")
 						}else{
 							$(".date").append("<h1>Your budget allows you to eat at Oak Steak House tonight!</h1>")
