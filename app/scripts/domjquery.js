@@ -4,10 +4,15 @@ $(document).ready(
 	console.log("im working");
 	var valTrans = Number($(".transportation").val());
 	var yourTransport = new Transportation(valTrans);
+	var valFoodType = Number($(".foodselect").val());
+	var valFoodBudget = Number($(".foodbudget").val());
+	var yourFood = new Restaurant (valFoodType, valFoodBudget);
+	var yourRestaurant = yourFood.restaurantSelect();
 	var valAct = Number($(".activitySelect").val());
 	var valActBudg= Number($(".actBudget").val());
 	var yourActivity = new Activity (valAct, valActBudg);
 	var yourDate = yourActivity.generateActivity();
+
 
 	// var yourDate = yourActivity.generateActivity(valAct, ValActBudg);
 

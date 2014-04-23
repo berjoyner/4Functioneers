@@ -22,8 +22,8 @@ function Restaurant(type, budget) {
 		this.budget = budget;
 
 		this.restaurantSelect = function () {
-			if (this.type === "American"){
-				if (this.budget === 25){
+			if (this.type == "3"){
+				if (this.budget == 25){
 					var chance = Math.floor(Math.random() * 10 )
 					if (chance <= 5){
 					$(".date").append("<h1>You will eat at Shelter tonight!</h1>");	
@@ -33,7 +33,7 @@ function Restaurant(type, budget) {
 							console.log ("Seasame");
 }
 }
-					if (this.budget === 50){
+					if (this.budget == 50){
 					var chance = Math.floor(Math.random() * 10 )
 					if (chance <= 5){
 					$(".date").append("<h1>You will eat at Coleman Public House tonight!</h1>");	
@@ -43,19 +43,19 @@ function Restaurant(type, budget) {
 							console.log ("EVO")
 }
 }
-					if (this.budget === 100){
+					if (this.budget == 100){
 					var chance = Math.floor(Math.random() * 10 )
 					if (chance <= 5){
 					$(".date").append("<h1>You will eat at Halls Chophouse tonight!>/h1>")
-					console.log === ("Halls")
+					console.log ("Halls")
 						}else{
 							$(".date").append("<h1>You will eat at Oak Steak House tonight!</h1>")
 							console.log("Oak")
 }
 }
 }
-			if (this.type === "Asian"){
-				if (this.budget === 25){
+			if (this.type == "4"){
+				if (this.budget == 25){
 					var chance = Math.floor(Math.random() * 10 )
 					if (chance <= 5){
 					$(".date").append("<h1>You will eat at Tasty Thai tonight!</h1>");	
@@ -65,7 +65,7 @@ function Restaurant(type, budget) {
 							console.log ("Co");
 }
 }
-				if (this.budget === 50){
+				if (this.budget == 50){
 					var chance = Math.floor(Math.random() * 10 )
 					if (chance <= 5){
 					$(".date").append("<h1>You will eat at Tsunami tonight!</h1>");	
@@ -75,7 +75,7 @@ function Restaurant(type, budget) {
 							console.log ("Wasabi");
 }
 }
-				if (this.budget === 100){
+				if (this.budget == 100){
 					var chance = Math.floor(Math.random() * 10 )
 					if (chance <= 5){
 					$(".date").append("<h1>You will eat at Basil tonight!</h1>");	
@@ -86,8 +86,8 @@ function Restaurant(type, budget) {
 }
 }
 }
-			if (this.type === "Seafood"){
-				if (this.budget === 25){
+			if (this.type == "5"){
+				if (this.budget == 25){
 					var chance = Math.floor(Math.random() * 10 )
 					if (chance <= 5){
 					$(".date").append("<h1>You will eat at Red's tonight!</h1>");	
@@ -97,7 +97,7 @@ function Restaurant(type, budget) {
 							console.log ("Oyster");
 }
 }
-				if (this.budget === 50){
+				if (this.budget == 50){
 					var chance = Math.floor(Math.random() * 10 )
 					if (chance <= 5){
 					$(".date").append("<h1>You will eat at Fleet's Landing tonight!</h1>");	
@@ -107,7 +107,7 @@ function Restaurant(type, budget) {
 							console.log ("Hyman");
 }
 }
-				if (this.budget === 100){
+				if (this.budget == 100){
 					var chance = Math.floor(Math.random() * 10 )
 					if (chance <= 5){
 					$(".date").append("<h1>You will eat at Hank's tonight!</h1>");	
@@ -118,24 +118,24 @@ function Restaurant(type, budget) {
 }
 }
 }}};
-var Shelter = new Restaurant ("American", 25);
-var Seasame = new Restaurant ("American", 25);
-var ColemanPublicHouse = new Restaurant ("American", 50);
-var Evo = new Restaurant ("American", 50);
-var Halls = new Restaurant ("American", 100);
-var Oak = new Restaurant ("American", 100);
-var Tasty = new Restaurant ("Asian", 25);
-var Co = new Restaurant ("Asian", 25);
-var Tsunami = new Restaurant ("Asian", 50);
-var Wasabi = new Restaurant ("Asian", 50);
-var Basil = new Restaurant ("Asian", 100);
-var PFChang = new Restaurant ("Asian", 100);
-var Reds = new Restaurant ("Seafood", 25);
-var NoisyOyster = new Restaurant ("Seafood", 25);
-var Fleets = new Restaurant ("Seafood", 50);
-var Hymans = new Restaurant ("Seafood", 50);
-var Hanks = new Restaurant ("Seafood", 100);
-var RedDrum = new Restaurant ("Seafood", 100);
+// var Shelter = new Restaurant ("American", 25);
+// var Seasame = new Restaurant ("American", 25);
+// var ColemanPublicHouse = new Restaurant ("American", 50);
+// var Evo = new Restaurant ("American", 50);
+// var Halls = new Restaurant ("American", 100);
+// var Oak = new Restaurant ("American", 100);
+// var Tasty = new Restaurant ("Asian", 25);
+// var Co = new Restaurant ("Asian", 25);
+// var Tsunami = new Restaurant ("Asian", 50);
+// var Wasabi = new Restaurant ("Asian", 50);
+// var Basil = new Restaurant ("Asian", 100);
+// var PFChang = new Restaurant ("Asian", 100);
+// var Reds = new Restaurant ("Seafood", 25);
+// var NoisyOyster = new Restaurant ("Seafood", 25);
+// var Fleets = new Restaurant ("Seafood", 50);
+// var Hymans = new Restaurant ("Seafood", 50);
+// var Hanks = new Restaurant ("Seafood", 100);
+// var RedDrum = new Restaurant ("Seafood", 100);
 
 
 
