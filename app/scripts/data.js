@@ -33,7 +33,7 @@ var teamBios = [
 
 	"functioneer":{
 		"name": "Mike",
-		"bio": "I'm pretty sure I was born in a Flannery O'Connor short story. I've been an electrician, a teacher, and a video guy. Now I am trying to be a front end developer.",
+		"bio": "I'm pretty sure I was born in a Flannery O'Connor short story. Now, I'm part of a vast global conspiracy to control the world's population.",
 		"twitter": "/guidestonesfilm"
 		
 		}
