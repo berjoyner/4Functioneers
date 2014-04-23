@@ -9,6 +9,8 @@ var obj = {
 							{text: "You will be taking an Exotic Rental Car", picUrl: "images/transportation/exotic100.jpg"}],
 			},
 
+			TESTINGGGGGGGGGGGG
+
 
 
 // function Transportation(type, budget) {
