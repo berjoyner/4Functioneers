@@ -167,12 +167,16 @@ button.btn-success{
 
 .date h4{
     text-transform: uppercase;
-    padding: 15px 0 0 0;
+    padding: 30px 0 30px 0;
     text-align: center;
-    font-size: 22px;
+    font-size: 30px;
     letter-spacing: 1px;
 }
 
+.date h1{
+    font-size: 22px;
+    text-align: center;
+}
 
 /*About Page Styling*/
 
@@ -201,15 +205,17 @@ button.btn-success{
 .aboutintro p{
      padding: 30px 0 0 0;
      font-family: "museo-sans-rounded", 'Helvetica';
-     width: 50%;
+     width: 60%;
      text-align: center;
      margin: 0 auto;
+     font-size: 22px;
 
 }
 
 .teammembers{
      width: 100%;
-    min-height: 400px;   
+    min-height: 300px; 
+    margin: 50px 0 0 0;  
 }
 
 .about h2{
