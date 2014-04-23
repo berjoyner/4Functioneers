@@ -9,7 +9,7 @@ $(document).ready(
 	var yourActivity = new Activity (valAct, valActBudg);
 	var yourDate = yourActivity.generateActivity();
 
-	// var yourDate = youActivity.generateDecision();
+	// var yourDate = yourActivity.generateActivity(valAct, ValActBudg);
 
 	// $("something").append(yourDate)
 
