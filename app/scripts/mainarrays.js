@@ -49,9 +49,9 @@ var dateObj = {
 							 ],
 				fifty:  	[
 							 {text: "Your budget allows for a Kayaking Session!", picUrl: "images/activities/kayak.png"},
-							 {text: "Your budget allows for a Painting Session!", picUrl: "images/activities/fearnoeasel.png"},
-							 {text: "Your budget allows for a Go-Kart Session!", picUrl: "images/activities/gokart.gif"},
-							 {text: "Your budget allows for a Laser-Tag Session!", picUrl: "images/activities/lasertag.png"},
+							 {text: "Your budget allows for a Painting Session!", picUrl: "images/activities/fearnoeasel.jpeg"},
+							 {text: "Your budget allows for a Go-Kart Session!", picUrl: "images/activities/gokart.jpg"},
+							 {text: "Your budget allows for a Laser-Tag Session!", picUrl: "images/activities/lasertag.jpg"},
 							 {text: "Your budget allows for a PaintBall Session!", picUrl: "images/activities/paintball.jpg"}
 							],
 				hundred: 	[
