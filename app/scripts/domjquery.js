@@ -14,6 +14,8 @@ $(document).ready(
 	var valActBudg= Number($(".actBudget").val());
 	var yourActivity = new Activity (valActBudg);
 	var yourDate= yourActivity.generateAct(); 
+	$(".date").append(yourDate);
+
 	// var yourDate = yourActivity.generate50Act(); 
 	// var yourDate = yourActivity.generate100Act(); 
 	

@@ -1,3 +1,4 @@
+
 function Activity(budget) {
 	this.budget = budget; 
 
@@ -5,15 +6,20 @@ function Activity(budget) {
 
 		if( budget == 25) {
 			var randomAct1 = Math.floor((Math.random()*4)+1);
-			console.log(dateObj.activity.twentyfive[randomAct1]);
+				$(".date").append(dateObj.activity.twentyfive[randomAct1].text);
+
+
 
 		} else if(budget == 50){
 			var randomAct2 = Math.floor((Math.random()*4)+1);
 			console.log(dateObj.activity.fifty[randomAct2]);
+				$(".date").append(dateObj.activity.fifty[randomAct2].text);
+
 
 		} else if(budget == 100) {
 			var randomAct3 = Math.floor((Math.random()*4)+1);
-			console.log(dateObj.activity.hundred[randomAct3]);
+				$(".date").append(dateObj.activity.hundred[randomAct3].text);
+
 		}
 	}
 	
@@ -26,15 +32,18 @@ function Restaurant(budget) {
 
 		if( budget == 25) {
 			var randomRest1 = Math.floor((Math.random()*4)+1);
-			console.log(dateObj.food.twentyfive[randomRest1]);
+	$(".date").append(dateObj.food.twentyfive[randomRest1].text);
 
 		} else if(budget == 50){
 			var randomRest2 = Math.floor((Math.random()*4)+1);
-			console.log(dateObj.food.fifty[randomRest2]);
+				$(".date").append(dateObj.food.fifty[randomRest2].text);
+
+
 
 		} else if(budget == 100) {
 			var randomRest3 = Math.floor((Math.random()*4)+1);
-			console.log(dateObj.food.hundred[randomRest3]);
+				$(".date").append(dateObj.food.hundred[randomRest3].text);
+
 		}
 	}
 	
@@ -47,15 +56,17 @@ function Transportation(budget) {
 
 		if( budget == 25) {
 			var randomTrans1 = Math.floor((Math.random()*1)+1);
-			console.log(dateObj.transportation.twentyfive[randomTrans1]);
+			$(".date").append(dateObj.transportation.hundred[randomTrans1].text);
+
 
 		} else if(budget == 50){
 			var randomTrans2 = Math.floor((Math.random()*1)+1);
-			console.log(dateObj.transportation.fifty[randomTrans2]);
+			$(".date").append(dateObj.transportation.hundred[randomTrans2].text);
+
 
 		} else if(budget == 100) {
 			var randomTrans3 = Math.floor((Math.random()*1)+1);
-			console.log(dateObj.transportation.hundred[randomTrans3]);
+			$(".date").append(dateObj.transportation.hundred[randomTrans3].text);
 		}
 	}
 	
@@ -266,7 +277,6 @@ function Transportation(budget) {
 // 	}
 // }
 // }
-
 
 
 
