@@ -19,8 +19,8 @@ var dateObj = {
 				twentyfive: [
 							 {text: "Your budget allows for dinner at Shelter!", picUrl: "images/restaurants/shelter.jpg"},
 							 {text: "Your budget allows for dinner at Sesame!", picUrl: "images/restaurants/sesame.gif"},
-							 {text: "Your budget allows for dinner at Tasty Thai!", picUrl: "images/restaurants/teasty.png"},	
-							 {text: "Your budget allows for dinner at Noisy Oyster!", picUrl: "images/restaurants/noisy.jpg"},
+							 {text: "Your budget allows for dinner at Tasty Thai!", picUrl: "images/restaurants/tasty.png"},	
+							 {text: "Your budget allows for dinner at Noisy Oyster!", picUrl: "images/restaurants/noisy.jpeg"},
 							 {text: "Your budget allows for dinner at Reds!", picUrl: "images/restaurants/reds.png"}
 							],
 				fifty: 		[
