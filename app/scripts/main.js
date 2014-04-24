@@ -1,3 +1,4 @@
+
 function Activity(budget) {
 	this.budget = budget; 
 
@@ -6,6 +7,7 @@ function Activity(budget) {
 		if( budget == 25) {
 			var randomAct1 = Math.floor((Math.random()*4)+1);
 			console.log(dateObj.activity.twentyfive[randomAct1]);
+
 
 		} else if(budget == 50){
 			var randomAct2 = Math.floor((Math.random()*4)+1);
@@ -26,7 +28,7 @@ function Restaurant(budget) {
 
 		if( budget == 25) {
 			var randomRest1 = Math.floor((Math.random()*4)+1);
-			console.log(dateObj.food.twentyfive[randomRest1]);
+			$(".date").append(dateObj.food.hundred.randomRest1);
 
 		} else if(budget == 50){
 			var randomRest2 = Math.floor((Math.random()*4)+1);
@@ -47,7 +49,7 @@ function Transportation(budget) {
 
 		if( budget == 25) {
 			var randomTrans1 = Math.floor((Math.random()*1)+1);
-			console.log(dateObj.transportation.twentyfive[randomTrans1]);
+
 
 		} else if(budget == 50){
 			var randomTrans2 = Math.floor((Math.random()*1)+1);
@@ -266,7 +268,6 @@ function Transportation(budget) {
 // 	}
 // }
 // }
-
 
 
 
